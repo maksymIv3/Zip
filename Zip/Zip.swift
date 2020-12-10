@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Minizip
+import Minizip1
 
 /// Zip error type
 public enum ZipError: Error {

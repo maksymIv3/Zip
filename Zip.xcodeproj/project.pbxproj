@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0770AECE224BDC030040B364 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770AECD224BDC030040B364 /* Minizip.h */; };
-		0770AECF224BDC120040B364 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770AECD224BDC030040B364 /* Minizip.h */; };
-		0770AED0224BDC130040B364 /* Minizip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770AECD224BDC030040B364 /* Minizip.h */; };
+		0770AECE224BDC030040B364 /* Minizip1.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770AECD224BDC030040B364 /* Minizip1.h */; };
+		0770AECF224BDC120040B364 /* Minizip1.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770AECD224BDC030040B364 /* Minizip1.h */; };
+		0770AED0224BDC130040B364 /* Minizip1.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770AECD224BDC030040B364 /* Minizip1.h */; };
 		07B2360221C2C697001E8634 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FD21C2C674001E8634 /* crypt.h */; };
 		07B2360321C2C697001E8634 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FE21C2C674001E8634 /* zip.h */; };
 		07B2360421C2C697001E8634 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B235FF21C2C674001E8634 /* unzip.h */; };
@@ -74,7 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0770AECD224BDC030040B364 /* Minizip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Minizip.h; sourceTree = "<group>"; };
+		0770AECD224BDC030040B364 /* Minizip1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Minizip1.h; sourceTree = "<group>"; };
 		0770AED3224BDF080040B364 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		07B235FD21C2C674001E8634 /* crypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
 		07B235FE21C2C674001E8634 /* zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		07B235FC21C2C674001E8634 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				0770AECD224BDC030040B364 /* Minizip.h */,
+				0770AECD224BDC030040B364 /* Minizip1.h */,
 				07B235FD21C2C674001E8634 /* crypt.h */,
 				07B235FE21C2C674001E8634 /* zip.h */,
 				07B235FF21C2C674001E8634 /* unzip.h */,
@@ -180,7 +180,7 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		342FC0D01C5044DC0023A3C3 /* minizip */ = {
+		342FC0D01C5044DC0023A3C3 /* minizip1 */ = {
 			isa = PBXGroup;
 			children = (
 				0770AED2224BDF080040B364 /* module */,
@@ -189,7 +189,7 @@
 				342FC0EB1C5044DC0023A3C3 /* unzip.c */,
 				342FC0ED1C5044DC0023A3C3 /* zip.c */,
 			);
-			path = minizip;
+			path = minizip1;
 			sourceTree = "<group>";
 		};
 		347E3A6A1C1DFFB500A11FD3 = {
@@ -216,7 +216,7 @@
 		347E3A761C1DFFB500A11FD3 /* Zip */ = {
 			isa = PBXGroup;
 			children = (
-				342FC0D01C5044DC0023A3C3 /* minizip */,
+				342FC0D01C5044DC0023A3C3 /* minizip1 */,
 				347E3A771C1DFFB500A11FD3 /* Zip.h */,
 				347E3A791C1DFFB500A11FD3 /* Info.plist */,
 				344050D91CE28F59001AFF0F /* Info-tvOS.plist */,
@@ -248,7 +248,7 @@
 				07B2360B21C2C698001E8634 /* zip.h in Headers */,
 				342545AE1CE525B200336074 /* Zip.h in Headers */,
 				07B2360A21C2C698001E8634 /* crypt.h in Headers */,
-				0770AED0224BDC130040B364 /* Minizip.h in Headers */,
+				0770AED0224BDC130040B364 /* Minizip1.h in Headers */,
 				07B2360C21C2C698001E8634 /* unzip.h in Headers */,
 				07B2360D21C2C698001E8634 /* ioapi.h in Headers */,
 			);
@@ -261,7 +261,7 @@
 				07B2360721C2C697001E8634 /* zip.h in Headers */,
 				343F51361C8DB0720028C434 /* Zip.h in Headers */,
 				07B2360621C2C697001E8634 /* crypt.h in Headers */,
-				0770AECF224BDC120040B364 /* Minizip.h in Headers */,
+				0770AECF224BDC120040B364 /* Minizip1.h in Headers */,
 				07B2360821C2C697001E8634 /* unzip.h in Headers */,
 				07B2360921C2C697001E8634 /* ioapi.h in Headers */,
 			);
@@ -274,7 +274,7 @@
 				347E3A781C1DFFB500A11FD3 /* Zip.h in Headers */,
 				07B2360221C2C697001E8634 /* crypt.h in Headers */,
 				07B2360521C2C697001E8634 /* ioapi.h in Headers */,
-				0770AECE224BDC030040B364 /* Minizip.h in Headers */,
+				0770AECE224BDC030040B364 /* Minizip1.h in Headers */,
 				07B2360421C2C697001E8634 /* unzip.h in Headers */,
 				07B2360321C2C697001E8634 /* zip.h in Headers */,
 			);
@@ -553,7 +553,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip/**";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip1/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -578,7 +578,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip/**";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip1/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -602,7 +602,7 @@
 				PRODUCT_NAME = Zip;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip/**";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip1/**";
 			};
 			name = Debug;
 		};
@@ -623,7 +623,7 @@
 				PRODUCT_NAME = Zip;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip/**";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip1/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
@@ -796,7 +796,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.roymarmelstein.Zip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip/**";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip1/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -818,7 +818,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.roymarmelstein.Zip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip/**";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Zip/minizip1/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
