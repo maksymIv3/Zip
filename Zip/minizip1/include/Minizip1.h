@@ -13,4 +13,4 @@
 #import "unzip.h"
 #import "zip.h"
 
-#endif /* Minizip_h1 */
+#endif /* Minizip1_h1 */
